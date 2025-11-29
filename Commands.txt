@@ -1,0 +1,20 @@
+source yolo_project/bin/activate
+
+rm -r bdd100k_yolo
+rm -r bdd100k_yolo_limited
+rm -r bdd100k_yolo_limited_zipped
+rm -r bdd100k_tmp_images
+rm -r bdd100k_tmp_labels
+
+
+
+python process_bdd100k_to_yolo_dataset.py
+
+
+
+cd /
+git clone https://github.com/m3mahdy/computer_vision_yolo
+cd computer_vision_yolo
+pip install -r requirements.txt
+python process_limited_dataset.py
+

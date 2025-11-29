@@ -1,0 +1,61 @@
+
+
+#ignore virtual environment folder
+yolo_project/**
+bdd_100k_source/**
+bdd100k_tmp_images/**
+bdd100k_tmp_labels/**
+bdd100k_yolo/**
+bdd100k_yolo_limited/**
+bdd100k_yolo_tuning/**
+bdd100k_yolo_tiny/**
+
+bdd100k_limited_datasets_zipped/**
+bdd100k_test_split_zipped/**
+
+
+bdd_100k_source_x/**
+bdd100k_tmp_images_x/**
+bdd100k_tmp_labels_x/**
+bdd100k_yolo_x/**
+bdd100k_yolo_limited_x/**
+bdd100k_yolo_tuning_x/**
+bdd100k_yolo_tiny_x/**
+
+
+
+
+
+#any file nmae .DS_Store
+.DS_Store
+
+
+
+tmp/**
+
+
+tune_train/wandb/**
+tune_train/wandb/
+# tune_train/runs/**
+
+yolo_test/wandb/**
+yolo_test/wandb/
+# yolo_test/runs/**
+
+
+training/wandb/**
+training/wandb/
+# training/runs/**
+
+
+__pychache__/
+__pychache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+#temp must be removed latet to save the data
+# tune_train/tune/
+# yolo_test/analysis_runs/
+# yolo_test/runs/
