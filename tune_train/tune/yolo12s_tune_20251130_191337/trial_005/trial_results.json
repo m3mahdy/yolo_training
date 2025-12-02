@@ -1,0 +1,49 @@
+{
+  "trial_number": 5,
+  "model_name": "yolo12s",
+  "dataset": "bdd100k_yolo_tuning",
+  "trial_directory": "/content/Drive/MyDrive/ksu_yolo10_tuning_2025/yolo_training/tune_train/tune/yolo12s_tune_20251130_191337/trial_005",
+  "hyperparameters": {
+    "imgsz": 768,
+    "batch": 56,
+    "optimizer": "AdamW",
+    "lr0": 0.00046416276498162026,
+    "momentum": 0.9085534257456573,
+    "weight_decay": 0.0007114668138090497,
+    "warmup_epochs": 3,
+    "warmup_momentum": 0.9456949457865867,
+    "warmup_bias_lr": 0.04132450636848238,
+    "mosaic": 0.7922202551639732,
+    "mixup": 0.09142805368635637,
+    "epochs": 6,
+    "device": "cuda",
+    "val": true,
+    "patience": 10,
+    "save": true,
+    "plots": true,
+    "cache": false,
+    "workers": 8,
+    "close_mosaic": 10,
+    "verbose": true
+  },
+  "validation_metrics": {
+    "map50": 0.4828743932038234,
+    "map50_95": 0.270031669718297,
+    "precision": 0.6733909543195652,
+    "recall": 0.4416819292971595
+  },
+  "training_metrics": {
+    "metrics/precision(B)": 0.6712055581232587,
+    "metrics/recall(B)": 0.44165753854570955,
+    "metrics/mAP50(B)": 0.48195716371843406,
+    "metrics/mAP50-95(B)": 0.26934873443231383
+  },
+  "training_config": {
+    "epochs": 6,
+    "batch_size": 56,
+    "image_size": 768,
+    "device": "cuda"
+  },
+  "timestamp": "2025-11-30T21:14:42.208273",
+  "status": "completed"
+}
